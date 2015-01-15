@@ -1,0 +1,16 @@
+# idea rubbish #
+*.iml
+.idea
+
+# erlang rubbish #
+.eunit
+deps
+*.o
+*.beam
+*.plt
+out
+ebin
+log
+*~
+/erlporter/rel/erlporter
+*.dump

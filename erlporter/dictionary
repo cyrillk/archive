@@ -1,0 +1,4 @@
+curl http://localhost:8098/solr/delayed/select?q=short_code:RI180000BC4
+curl http://localhost:8098/riak/delayed/RI180000BC4
+curl http://localhost:8098/riak/delayed?keys=true
+curl http://localhost:8098/riak?buckets=true

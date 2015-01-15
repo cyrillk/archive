@@ -1,0 +1,15 @@
+# idea rubbish #
+*.iml
+.idea
+
+# erlang rubbish #
+.eunit
+deps
+*.o
+*.beam
+*.plt
+out
+log
+*~
+*.dump
+

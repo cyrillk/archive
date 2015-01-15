@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# \cp -v ~/.bashrc ./ | sed 's/\(.*\) -> \(.*\)/\2/'
+\cp -v ~/.bash_aliases ./ | sed 's/\(.*\) -> \(.*\)/\2/'
+
+echo "\nok"

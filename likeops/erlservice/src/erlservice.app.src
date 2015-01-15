@@ -1,0 +1,12 @@
+{application, erlservice,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlservice_app, []}},
+  {env, []}
+ ]}.

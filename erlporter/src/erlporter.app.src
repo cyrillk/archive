@@ -1,0 +1,12 @@
+{application, erlporter,
+ [
+  {description, "Imports/Exports data"},
+  {vsn, "3"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlporter, []}},
+  {env, []}
+ ]}.

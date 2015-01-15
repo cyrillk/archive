@@ -1,0 +1,7 @@
+*.txt
+*~
+target
+elpa
+*#
+eshell
+
